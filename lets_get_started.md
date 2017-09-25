@@ -34,3 +34,5 @@ find words seperated with hyphens or underscores**
   (3)  You should see a directory listing on the left of your code editor with your project folder!
 ![step 7](/assets/imgs/tutorial-step-7.png)
 
+## Step 5
+  Okie Doke Perfect, we can get to work now and being our [Intro to html, see the html-intro folder](https://github.com/patricksimonian/lhl-intro-html-css/blob/master/html-intro/html.md "Intro to HTML")
