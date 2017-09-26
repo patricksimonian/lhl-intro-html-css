@@ -35,7 +35,7 @@ Okay there's my sermon.. let's get started.
 
 ## Step 1
   First things first, we will need an html file to call home in order to start coding. 
-  Do this by creating a file called index.html inside of your project folder. 
+  Do this by creating a file called <b>"index.html"</b> inside of your project folder. 
   
   ![make new file](/assets/imgs/tutorial-step-8.png)
   
