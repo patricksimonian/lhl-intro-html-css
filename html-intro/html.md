@@ -60,3 +60,8 @@ Save the file and then navigate to your project folder and choose to open the **
 
 And that's it &mdash; you just built a Web page!
 
+## Step 3
+ Okay, most web pages don't just say hello world, and if we are going to get towards our personal profile page we are going to need more content.
+ To start off with we will rewrite our index.html to look like this. 
+ 
+ ![basic html skeleton](/assets/imgs/tutorial-step-12.png)
