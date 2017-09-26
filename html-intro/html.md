@@ -56,7 +56,7 @@ It should look like this.
 
 Save the file and then navigate to your project folder and choose to open the **index.html** file in your Web browser. You'll get something like this.
 
-![Hello, Chrome](/assets/tutorial-step-11.png)
+![Hello, Chrome](/assets/imgs/tutorial-step-11.png)
 
 And that's it &mdash; you just built a Web page!
 
