@@ -89,4 +89,69 @@ This is because we are simply constructing the foundation of how all the HTML wo
 For now let's finish off writing our foundation HTML. Here's the snippet of code to follow. 
 
 ![finished skeleton](/assets/imgs/step-14.png)
-   
+  
+## Step 5 - Filling In Some Content
+
+Fill in your foundation HTML Code with whatever you like,
+I used my HTML to make a personal profile page but you could do anything, even make a page about one of your favourite animals/activities.
+
+Here's what my code looks like 
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Page | Home</title>
+</head>
+<body>
+  <!-- a navigation bar which may or may not be needed depending on how large your website is -->
+  <nav></nav>
+  <!-- the main content of your page -->
+  <main>
+    <!-- the title-->
+    <header>
+      <!-- online image link, copied from url. Trying searching google images for a link -->
+      <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/307211_10151225912177690_682126725_n.jpg?oh=2987474d903096b0dfa3d9fec9977bf3&oe=5A4A5DDA" alt="my profile pic">
+      <h1>My Profile Page</h1>
+    </header>
+  
+    <!-- main section  -->
+    <section>
+      <!-- title for main section -->
+      <h2>About Me</h2>
+      <!-- a small article about myself -->
+      <article>
+        <p>My Name is Patrick Simonian. I'm a Full Stack web developer and instructor.</p>
+      </article>
+    </section>
+    <!-- here's an aside of more things that are related to the section above -->
+    <aside>
+      <h3>Some of my favourite things are:</h3>
+      <ul>
+        <li>Pizza</li>
+        <li>Traveling</li>
+        <li>Cycling</li>
+        <li>Rock Climbing</li>
+        <li>Hiking</li>
+      </ul>
+    </aside>
+    <!-- links to some social things such as my github profile -->
+    <footer>
+      <a href="https://github.com/patricksimonian">My Github Projects</a>
+    </footer>
+  </main>
+</body>
+</html>
+```
+You probably noticed this funny syntax..
+*** ```<!--  -->```  what's that all about?***
+
+Those are HTML comments, this allows us to code in messages for ourselves or other developers that won't show up on the website but is visible in the HTML files. 
+
+After everything is said and done this is what the final result should more or less look like. 
+![result](/assets/imgs/step-15.png)
+
+Like mentioned earlier, the way everything is positioned doesn't exactly look like our box schematic from above but that's because it hasn't been styled yet.
+
+Speaking of style. Let's dive right into CSS with the <a href="https://github.com/patricksimonian/lhl-intro-html-css/edit/master/css-intro/css.md">next tutorial</a>.
+
