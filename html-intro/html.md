@@ -1,4 +1,4 @@
-#HTML
+# HTML
 
 So as we discussed in the lecture, HTML stands for Hyper-Text-Markup-Language.
 What this really means is that HTML is the language the provides content to a website.
