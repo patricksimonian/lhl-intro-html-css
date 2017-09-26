@@ -42,3 +42,21 @@ Okay there's my sermon.. let's get started.
   You project directory in your code editor should look something like this. 
   
   ![directory with index.html](/assets/imgs/tutorial-step-9.png)
+
+## Step 2
+
+Open the file and add the following html code into it.
+
+```html
+<h1>hello, world</h1>
+```
+It should look like this.
+
+![hello, world](/assets/imgs/tutorial-step-10.png)
+
+Save the file and then navigate to your project folder and choose to open the **index.html** file in your Web browser. You'll get something like this.
+
+![Hello, Chrome](/assets/tutorial-step-11.png)
+
+And that's it &mdash; you just built a Web page!
+
