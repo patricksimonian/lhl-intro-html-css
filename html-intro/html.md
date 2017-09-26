@@ -65,3 +65,28 @@ And that's it &mdash; you just built a Web page!
  To start off with we will rewrite our index.html to look like this. 
  
  ![basic html skeleton](/assets/imgs/tutorial-step-12.png)
+ 
+ ## Step 4
+ 
+ Perfect, we have a working skeleton to start our markup. 
+    
+ Before we start coding our HTML in it's best to visualize how our content is going to live in the page. 
+ 
+ The best way to do that is to start thinking <b>boxes</b>. 
+    
+![thinking boxy](/assets/imgs/step-13.png)
+    
+ This is because every element/tag in HTML can be thought of as living in its own box. 
+Elements/tags can be placed inside other boxes (other elements). We call that process nesting. 
+    
+ The image above visualizes how all our HTML elements will live and how they are oriented/nested. 
+    
+***One important thing to realize is although this is how we visualize our content, 
+IT WILL NOT LOOK LIKE THIS when we load the website**
+    
+This is because we are simply constructing the foundation of how all the HTML works together. For it to look how it is shown in the image above, we will style it with CSS later in the tutorial. 
+ 
+For now let's finish off writing our foundation HTML. Here's the snippet of code to follow. 
+
+![finished skeleton](/assets/imgs/step-14.png)
+   
