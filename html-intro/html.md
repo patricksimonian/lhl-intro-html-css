@@ -70,13 +70,13 @@ And that's it &mdash; you just built a Web page!
  
  Perfect, we have a working skeleton to start our markup. 
     
- Before we start coding our HTML in it's best to visualize how our content is going to live in the page. 
+ Before we start coding our HTML, it's best to visualize how our content is going to live in the page. 
  
- The best way to do that is to start thinking <b>boxes</b>. 
+ On of the ways to do that is to start thinking <b>boxey</b>. 
     
 ![thinking boxy](/assets/imgs/step-13.png)
     
- This is because every element/tag in HTML can be thought of as living in its own box. 
+ Every element/tag in HTML can be thought of as living in its own box. 
 Elements/tags can be placed inside other boxes (other elements). We call that process nesting. 
     
  The image above visualizes how all our HTML elements will live and how they are oriented/nested. 
