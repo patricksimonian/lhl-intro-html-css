@@ -102,44 +102,48 @@ Here's what my code looks like
 <html>
 <head>
   <title>My Personal Page | Home</title>
+  
 </head>
 <body>
-  <!-- a navigation bar which may or may not be needed depending on how large your website is -->
-  <nav></nav>
   <!-- the main content of your page -->
   <main>
     <!-- the title-->
     <header>
       <!-- online image link, copied from url. Trying searching google images for a link -->
       <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/307211_10151225912177690_682126725_n.jpg?oh=2987474d903096b0dfa3d9fec9977bf3&oe=5A4A5DDA" alt="my profile pic">
-      <h1>My Profile Page</h1>
+      <h1>Oh Hey there</h1>
     </header>
-  
+    <!-- this gives a horizontal ruler line for some extra flair -->
+    <hr> 
     <!-- main section  -->
     <section>
-      <!-- title for main section -->
-      <h2>About Me</h2>
-      <!-- a small article about myself -->
-      <article>
-        <p>My Name is Patrick Simonian. I'm a Full Stack web developer and instructor.</p>
-      </article>
+      <section>
+        <!-- title for main section -->
+        <h2>About Me</h2>
+        <!-- a small article about myself -->
+        <article>
+          <p>My Name is Patrick Simonian. I'm a Full Stack web developer and instructor.</p>
+          <p>Besides that, I enjoy spending my off time outside, hiking, climbing and other Island related activities!</p>
+        </article>
+      </section>
+      <!-- here's an aside of more things that are related to the section above -->
+      <aside>
+        <h3>Some of my favourite things are:</h3>
+        <ul>
+          <li>Pizza</li>
+          <li>Travelling</li>
+          <li>Cycling</li>
+          <li>Rock Climbing</li>
+          <li>Hiking</li>
+        </ul>
+      </aside>
     </section>
-    <!-- here's an aside of more things that are related to the section above -->
-    <aside>
-      <h3>Some of my favourite things are:</h3>
-      <ul>
-        <li>Pizza</li>
-        <li>Traveling</li>
-        <li>Cycling</li>
-        <li>Rock Climbing</li>
-        <li>Hiking</li>
-      </ul>
-    </aside>
     <!-- links to some social things such as my github profile -->
-    <footer>
-      <a href="https://github.com/patricksimonian">My Github Projects</a>
-    </footer>
   </main>
+  <footer>
+    <!-- any content approprate for a footer can go here-->
+    <a href="https://github.com/patricksimonian">My Github Projects</a>
+  </footer>
 </body>
 </html>
 ```
@@ -148,7 +152,7 @@ You probably noticed this funny syntax..
 
 Those are HTML comments, this allows us to code in messages for ourselves or other developers that won't show up on the website but is visible in the HTML files. 
 
-After everything is said and done this is what the final result should more or less look like. 
+After everything is said and done this is what the final result should more or less look like...minus the picture of myself ofcourse :)
 ![result](/assets/imgs/step-15.png)
 
 Like mentioned earlier, the way everything is positioned doesn't exactly look like our box schematic from above but that's because it hasn't been styled yet.
