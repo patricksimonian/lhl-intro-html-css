@@ -265,7 +265,7 @@ this is my end result..
  
  -border: applies a border to an element
  
- -padding: adds 'cushion' around the content of an element. This would increase the distance between an element and its border. 
+ -padding: adds 'cushion' around the content of an element. This would increase the distance between the content (the content can be other nested elements) and its border. 
  
  Now that we have some basic positioning knowledge, let's center our header so it's similar to the final result picture that was demonstrated at the beginning of the workshop. 
  
