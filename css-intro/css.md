@@ -81,3 +81,122 @@ elements more specifically.
  ![final result](/assets/imgs/step-17.png)
  
  ## Step 2
+ 
+ Edit the styles.css file you just created and add this code to it. 
+ ```
+    body {
+      font-family: 'Lato', 'sans-serif';
+      font-size: 14px;
+    }
+ ```
+like so...
+![first selector](/assets/imgs/step-18.png)
+make sure to save the file!
+
+what we are doing is adding some very basic styles like what the font is and how large it is going to be. These styles will flow (cascade) down to all our HTML elements because we targeted the body.
+
+## Step 2
+
+In order to use those styles we just wrote we need to link the styles.css file to the index.html file. 
+
+In your index.html file, modify the ```<head>``` tag and copy and paste these two tags inside..
+```
+  <link rel="stylesheet" type="text/css" href="./public/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:300,400" rel="stylesheet">
+```
+
+It should look like this
+![first selector](/assets/imgs/step-19.png)
+make sure to save the file!
+
+The lower link tag is linking to an external stylesheet over the internet. This one is specifcally for getting some neat fonts (from Google) to use on our page. Leveraging other peoples' resources (code, fonts, images) is a very common practice in web development. 
+
+If everything went well, when you refresh your browser and view your website you should notice the font is different!.
+
+We are getting there..
+
+## Step 3
+
+Let's modify our existing HTML (in index.html) and add some class and id attributes to the elements so that
+we can more <i>specifically</i> style them. 
+  
+Take your time with this as there are many HTML attributes that were added. They will be summarized below the picture.
+
+![adding-selectors](/assets/imgs/step-20.png)
+
+ #### Summary of all the HTML changes
+ -the main ```<header>``` tag had an id attribute of "main-title" added. 
+ 
+ -the ```<img>``` tag inside the main header had an id of "profile-thumbnail" added
+ 
+ -the ```<section>``` tag has an id of "main-profile-container"
+ 
+ -the ```<h2>``` inside the section  has an id of "about-me-header"
+ 
+ -the ```<article>``` inside the section has a class of "personal-descriptions" 
+    (this is because we may add more articles if needed)
+    
+ -the ```<ul>``` tag has a class of "list-group"
+ 
+ -the ```<footer>``` tag at the bottom of the index.html has an id of "page-bottom"
+ 
+ -the ```<a>``` tag inside the footer has a class of "social-links"
+ 
+  ## Step 4
+   
+Perfect! We have a whole bunch of elements, classes and ids that we can target with our CSS and get styling. 
+
+Copy and Paste this code inside your "styles.css" file. 
+
+```
+/*these comma seperated selectors is a shortcut to apply the same set of style to these
+three elements*/
+h1, h2, h3 {
+
+}
+
+aside {
+
+}
+
+.list-group {
+
+}
+
+/*joining selectors like this is just like saying target all of the <li> tags found within
+the element(s) that have the list-group class*/
+.list-group li {
+
+}
+
+.personal-descriptions {
+
+}
+
+.social-links {
+
+}
+
+#about-me-header {
+
+}
+
+#main-profile-container {
+
+}
+
+#main-title {
+
+}
+
+#page-bottom {
+
+}
+
+#profile-thumbnail {
+
+}
+```
+
+Let's begin by fixing our profile image so that it looks like the thumbnail icon we saw in the final result.
+
