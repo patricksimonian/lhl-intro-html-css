@@ -245,17 +245,17 @@ Look at these css properties and try to figuire what's going on, play with the b
 
 this is my end result..
 
-![changed profile pic](/assets/imgs/part-21.png)
+![changed profile pic](/assets/imgs/step-21.png)
 
 ## Step 5
 
- There are many different properties to use when styling with css and we encourage experimenting with colors, background-colors, height, width and so on. Besides changing <i>how</i> and element looks we can also change its position on the page with several different properties. 
+ There are many different properties to use when styling with css and we encourage experimenting with colors, background-colors, height, width and so on. Besides changing <i>how</i> an element looks we can also change its position on the page with several properties. 
  
  Before we can get into that we need to go over the <strong>box model</strong>
  
  ##### CSS Box Model
  
- ![box model](/assets/imgs/part-22.png)
+ ![box model](/assets/imgs/step-22.png)
  
  We can position the content inside a tag by applying styling rules to an elements margin, border, or padding.
  
@@ -283,4 +283,28 @@ Again experiment around with the values there and add your own CSS properties.
 The numbers following the margin may look funny but it's short hand notation. 
 You can learn more about the short hand properties <a href="https://www.w3schools.com/css/css_margin.asp"> here.</a>
 
+## Step 6 - Adding the Hero Image
 
+Adding a big hero image is a really easy way to turn a websites looks up by 11 points.
+
+The first thing you'll need is to find a decently large image but something not too large as it will take time to load. My hero image had a size of 1200x800 px.
+
+Google up a nice image you want for a background and let's get stylin'
+
+Modify your body selector in the style.css file like so
+
+```
+body {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 18px;
+  margin: 0;
+  background: url("YOUR URL HERE") no-repeat center center fixed;
+  background-size: cover;
+}
+```
+
+Test it out and see how it looks. Google what these CSS properties do, adjust the font color if needed and sizing.
+
+Save and refresh the page and gleefully look at your website coming to life!
+
+![geting there](/assets/imgs/step-23.png)
