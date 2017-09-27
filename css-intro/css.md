@@ -86,7 +86,7 @@ elements more specifically.
  ```
     body {
       font-family: 'Lato', 'sans-serif';
-      font-size: 14px;
+      font-size: 18px;
     }
  ```
 like so...
