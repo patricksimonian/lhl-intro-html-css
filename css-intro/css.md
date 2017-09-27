@@ -245,7 +245,7 @@ Look at these css properties and try to figuire what's going on, play with the b
 
 this is my end result..
 
-![changed profile pic](/assets/imgs/part-21.png)
+![changed profile pic](/assets/imgs/step-21.png)
 
 ## Step 5
 
@@ -255,7 +255,7 @@ this is my end result..
  
  ##### CSS Box Model
  
- ![box model](/assets/imgs/part-22.png)
+ ![box model](/assets/imgs/step-22.png)
  
  We can position the content inside a tag by applying styling rules to an elements margin, border, or padding.
  
