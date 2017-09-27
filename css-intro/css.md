@@ -106,7 +106,7 @@ In your index.html file, modify the ```<head>``` tag and copy and paste these tw
 ```
 
 It should look like this
-![first selector](/assets/imgs/step-19.png)
+![first selector](/assets/imgs/step-19-new.png)
 make sure to save the file!
 
 The lower link tag is linking to an external stylesheet over the internet. This one is specifcally for getting some neat fonts (from Google) to use on our page. Leveraging other peoples' resources (code, fonts, images) is a very common practice in web development. 
@@ -122,7 +122,7 @@ we can more <i>specifically</i> style them.
   
 Take your time with this as there are many HTML attributes that were added. They will be summarized below the picture.
 
-![adding-selectors](/assets/imgs/step-20.png)
+![adding-selectors](/assets/imgs/step-20-new.png)
 
  #### Summary of all the HTML changes
  -the main ```<header>``` tag had an id attribute of "main-title" added. 
