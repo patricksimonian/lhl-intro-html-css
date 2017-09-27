@@ -72,7 +72,7 @@ And that's it &mdash; you just built a Web page!
     
  Before we start coding our HTML, it's best to visualize how our content is going to live in the page. 
  
- On of the ways to do that is to start thinking <b>boxey</b>. 
+ One way to do that is to start thinking <b>boxey</b>. 
     
 ![thinking boxy](/assets/imgs/step-13.png)
     
