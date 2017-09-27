@@ -35,4 +35,4 @@ find words seperated with hyphens or underscores**
 ![step 7](/assets/imgs/tutorial-step-7.png)
 
 ## Step 5
-  Okie Doke Perfect, we can get to work now and begin the [Intro to html](https://github.com/patricksimonian/lhl-intro-html-css/blob/master/html-intro/html.md)
+  Okie Doke Perfect, we can get to work now and begin the [Intro to html](html-intro/html.md)

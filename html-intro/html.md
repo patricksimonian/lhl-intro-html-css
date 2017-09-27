@@ -157,5 +157,5 @@ After everything is said and done this is what the final result should more or l
 
 Like mentioned earlier, the way everything is positioned doesn't exactly look like our box schematic from above but that's because it hasn't been styled yet.
 
-Speaking of style. Let's dive right into CSS with the <a href="https://github.com/patricksimonian/lhl-intro-html-css/edit/master/css-intro/css.md">next tutorial</a>.
+Speaking of style. Let's dive right into CSS with the <a href="../css-intro/css.md">next tutorial</a>.
 
