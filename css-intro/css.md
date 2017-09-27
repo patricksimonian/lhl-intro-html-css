@@ -249,7 +249,7 @@ this is my end result..
 
 ## Step 5
 
- There are many different properties to use when styling with css and we encourage experimenting with colors, background-colors, height, width and so on. Besides changing <i>how</i> and element looks we can also change its position on the page with several different properties. 
+ There are many different properties to use when styling with css and we encourage experimenting with colors, background-colors, height, width and so on. Besides changing <i>how</i> an element looks we can also change its position on the page with several properties. 
  
  Before we can get into that we need to go over the <strong>box model</strong>
  
