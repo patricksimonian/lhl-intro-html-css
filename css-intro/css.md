@@ -106,7 +106,7 @@ In your index.html file, modify the ```<head>``` tag and copy and paste these tw
 ```
 
 It should look like this
-![first selector](/assets/imgs/step-19.png)
+![first selector](/assets/imgs/step-19-new.png)
 make sure to save the file!
 
 The lower link tag is linking to an external stylesheet over the internet. This one is specifcally for getting some neat fonts (from Google) to use on our page. Leveraging other peoples' resources (code, fonts, images) is a very common practice in web development. 
@@ -122,7 +122,7 @@ we can more <i>specifically</i> style them.
   
 Take your time with this as there are many HTML attributes that were added. They will be summarized below the picture.
 
-![adding-selectors](/assets/imgs/step-20.png)
+![adding-selectors](/assets/imgs/step-20-new.png)
 
  #### Summary of all the HTML changes
  -the main ```<header>``` tag had an id attribute of "main-title" added. 
@@ -232,4 +232,55 @@ the element(s) that have the list-group class*/
 ```
 
 Let's begin by fixing our profile image so that it looks like the thumbnail icon we saw in the final result.
+
+add this css code inside the #profile-thumbnail selector
+```
+#profile-thumbnail {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+ }
+```
+Look at these css properties and try to figuire what's going on, play with the border-radius, width and height then save and refresh the page. What happens? The best way of knowing how all these different styling rules work is by experimenting.
+
+this is my end result..
+
+![changed profile pic](/assets/imgs/part-21.png)
+
+## Step 5
+
+ There are many different properties to use when styling with css and we encourage experimenting with colors, background-colors, height, width and so on. Besides changing <i>how</i> and element looks we can also change its position on the page with several different properties. 
+ 
+ Before we can get into that we need to go over the <strong>box model</strong>
+ 
+ ##### CSS Box Model
+ 
+ ![box model](/assets/imgs/part-22.png)
+ 
+ We can position the content inside a tag by applying styling rules to an elements margin, border, or padding.
+ 
+ Things to note are:
+ 
+ -margin: pushes the element away from other elements on the page, we often use this to space elements apart from each other
+ 
+ -border: applies a border to an element
+ 
+ -padding: adds 'cushion' around the content of an element. This would increase the distance between an element and its border. 
+ 
+ Now that we have some basic positioning knowledge, let's center our header so it's similar to the final result picture that was demonstrated at the beginning of the workshop. 
+ 
+ Add this code to your #main-title selector so that it looks like this
+ 
+ ```
+ #main-title {
+  margin: 45px auto 25px;
+  text-align: center;
+  width: 400px;
+}
+```
+
+Again experiment around with the values there and add your own CSS properties. 
+The numbers following the margin may look funny but it's short hand notation. 
+You can learn more about the short hand properties <a href="https://www.w3schools.com/css/css_margin.asp"> here.</a>
+
 
