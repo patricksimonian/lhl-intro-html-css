@@ -283,4 +283,28 @@ Again experiment around with the values there and add your own CSS properties.
 The numbers following the margin may look funny but it's short hand notation. 
 You can learn more about the short hand properties <a href="https://www.w3schools.com/css/css_margin.asp"> here.</a>
 
+## Step 6 - Adding the Hero Image
 
+Adding a big hero image is a really easy way to turn a websites looks up by 11 points.
+
+The first thing you'll need is to find a decently large image but something not too large as it will take time to load. My hero image had a size of 1200x800 px.
+
+Google up a nice image you want for a background and let's get stylin'
+
+Modify your body selector in the style.css file like so
+
+```
+body {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 18px;
+  margin: 0;
+  background: url("YOUR URL HERE") no-repeat center center fixed;
+  background-size: cover;
+}
+```
+
+Test it out and see how it looks. Google what these CSS properties do, adjust the font color if needed and sizing.
+
+Save and refresh the page and gleefully look at your website coming to life!
+
+![geting there](/assets/imgs/step-23.png)
