@@ -308,3 +308,137 @@ Test it out and see how it looks. Google what these CSS properties do, adjust th
 Save and refresh the page and gleefully look at your website coming to life!
 
 ![geting there](/assets/imgs/step-23.png)
+
+## Step 7 - Finishing it Off
+
+To position the rest of the content we need to dive into other CSS properties such as ```position``` and ```display```
+
+Take a look at these <a href="https://css-tricks.com/almanac/properties/p/position/#article-header-id-2"> docs </a> in regards to the position property and here is some <a href="https://css-tricks.com/almanac/properties/d/display/">material</a> for the display property. 
+
+There's a lot of information in these docs which can be overwhelming. There's definitly no expetation to ever memorize all this information. To get the rest of the page positioned try copy and pasting these styles and then begin playing around with all of the styling to your liking:)
+
+```
+body {
+  color: #fff;
+  font-family: 'Lato', 'sans-serif';
+  font-size: 18px;
+  margin: 0;
+  background: url("http://i.imgur.com/bD9rl6W.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/*these comma seperated selectors is a shortcut to apply the same set of style to these
+three elements*/
+h1, h2, h3 {
+  font-family: 'Raleway', 'sans-serif';
+}
+
+aside {
+  margin-left: 25px;
+}
+
+hr {
+  border: 2px solid white;
+  margin: 15px auto;
+  min-width: 800px;
+  width: 75%;
+}
+
+main {
+
+}
+
+.list-group {
+  text-align: left;
+  list-style: none;
+  padding-left: 5px;
+}
+
+/*joining selectors like this is just like saying target all of the <li> tags found within
+the element(s) that have the list-group class*/
+.list-group li {
+
+}
+
+.information-block {
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 450px;
+  min-height: 300px;
+  min-width: 350px;
+  padding: 10px;
+  width: 45%;
+  vertical-align: top;
+}
+
+.personal-descriptions {
+  text-align: left;
+  padding: 5px;
+}
+
+.social-links {
+
+}
+
+.social-links:hover {
+  color: #00ACF0;
+}
+
+#about-me-header {
+
+}
+
+#alt-descriptions {
+  border: 1px solid #fff;
+}
+
+#main-profile-container {
+  margin: 30px auto;
+  min-width: 800px;
+  max-width: 1000px;
+  width: 75%;
+  text-align: center;
+}
+
+#main-descriptions {
+  border: 5px solid #fff;
+}
+
+#main-title {
+  margin: 45px auto 25px;
+  text-align: center;
+  width: 400px;
+}
+
+#main-title h1 {
+  font-size: 30px;
+}
+
+#page-bottom {
+  display: fixed;
+  bottom: 0;
+  padding: 16px;
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+  position: fixed;
+  background: #d3d3d3;
+  width: 100%;
+}
+
+#profile-thumbnail {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+```
+
+## What's Next?
+
+The options that you have when building a webpage is only limited by you. Explore using different HTML tags and CSS properties and get your website looking exactly how you like it. 
+
+You may have noticed in your project folder a directory called "scripts". The folder is reserved for javascript. 
+
+I encourage you to take a look at some basic javascript. There's tons of resources available online including our <strong><a href="https://lighthouse-labs.thinkific.com/courses/javascript">Free Intro Course</a><strong>
+
+Thank you again for being apart of the workshop!
+
