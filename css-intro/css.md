@@ -86,7 +86,7 @@ elements more specifically.
  ```
     body {
       font-family: 'Lato', 'sans-serif';
-      font-size: 14px;
+      font-size: 18px;
     }
  ```
 like so...
@@ -129,11 +129,12 @@ Take your time with this as there are many HTML attributes that were added. They
  
  -the ```<img>``` tag inside the main header had an id of "profile-thumbnail" added
  
- -the ```<section>``` tag has an id of "main-profile-container"
+ -the first```<section>``` tag has an id of "main-profile-container"
  
- -the ```<h2>``` inside the section  has an id of "about-me-header"
+ -the ```<section>``` tag inside the first section has an id of "main-descriptions" and a class of "information-block"
+ -the ```<h2>``` inside the main descriptions section  has an id of "about-me-header"
  
- -the ```<article>``` inside the section has a class of "personal-descriptions" 
+ -the ```<article>``` inside the section has an id of "alt-descriptions" and a class of "information-block" 
     (this is because we may add more articles if needed)
     
  -the ```<ul>``` tag has a class of "list-group"
@@ -146,9 +147,13 @@ Take your time with this as there are many HTML attributes that were added. They
    
 Perfect! We have a whole bunch of elements, classes and ids that we can target with our CSS and get styling. 
 
-Copy and Paste this code inside your "styles.css" file. 
+Copy and Paste this code inside your "styles.css" file replacing whatever was inside there earlier. 
 
 ```
+body {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 18px;
+}
 /*these comma seperated selectors is a shortcut to apply the same set of style to these
 three elements*/
 h1, h2, h3 {
@@ -159,8 +164,16 @@ aside {
 
 }
 
-.list-group {
+hr {
 
+}
+
+main {
+
+}
+
+.list-group {
+  
 }
 
 /*joining selectors like this is just like saying target all of the <li> tags found within
@@ -169,11 +182,19 @@ the element(s) that have the list-group class*/
 
 }
 
-.personal-descriptions {
+.information-block {
+  
+}
 
+.personal-descriptions {
+  
 }
 
 .social-links {
+
+}
+
+.social-links:hover {
 
 }
 
@@ -181,11 +202,23 @@ the element(s) that have the list-group class*/
 
 }
 
+#alt-descriptions {
+
+}
+
 #main-profile-container {
 
 }
 
+#main-descriptions {
+
+}
+
 #main-title {
+
+}
+
+#main-title h1 {
 
 }
 
